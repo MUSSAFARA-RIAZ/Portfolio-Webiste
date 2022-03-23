@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+#main {
+    display: grid;
+    /* grid-template-rows: 500px 500px; */
+
+
+    grid-template-columns: 300px 200px;
+
+
+    height: auto;
+
+}
+
+#navbar {
+
+    grid-column: 1/4;
+    height: 50px;
+
+
+
+}
+
+#designation p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+
+#navbar ul a {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* padding: 10px;
+    margin: 20px; */
+
+}
+
+ul {
+
+    float: right;
+    padding-top: -5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#myname {
+    display: inline;
+}
+
+li {
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+a:hover {
+    background-color: grey;
+    color: black;
+
+}
+
+#lgo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+
+
+}
+
+#lgo::selection {
+    background-color: black;
+
+}
+
+#img {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 400px 400px;
+
+
+}
+
+#head {
+    width: 350px;
+    text-decoration: underline;
+    color: rgb(166, 248, 166);
+
+
+
+}
+
+#con {
+    font-size: 50px;
+    width: 500px;
+    margin: auto;
+
+    padding: 50px;
+
+
+
+}
+
+p {
+    font-size: 25px;
+    color: rgb(151, 166, 250);
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    font-size: 25px;
+
+}
+
+
+.sec {
+
+    margin: 40px;
+    padding: 20px;
+
+
+}

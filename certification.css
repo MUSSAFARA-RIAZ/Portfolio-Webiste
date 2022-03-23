@@ -1,0 +1,133 @@
+body {
+    background-color:black;
+
+    color: white;
+
+}
+#main {
+    display: grid;
+  
+    grid-template-columns: 300px 200px;
+    height: auto;
+
+}
+
+#navbar {
+
+    grid-column: 1/4;
+    height: 50px;
+}
+
+#designation p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+
+#navbar ul a {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    /* padding: 10px;
+    margin: 20px; */
+
+}
+
+ul {
+
+    float: right;
+    padding-top: -5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#myname {
+    display: inline;
+}
+li {
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+a:hover {
+    background-color: grey;
+    color: black;
+
+}
+#heading{
+    text-align: center;
+
+}
+
+#certificates{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 400px 400px;
+    grid-gap: 20px 20px;
+    justify-items: center;
+    justify-content: center;
+   }
+#view{
+    border: 2px solid grey;
+   padding: 10px;
+
+    border-radius: 10px;
+    background-color: rgb(167, 162, 162);
+    color: black;
+    font-weight: bolder;
+
+
+
+}
+#view:hover{
+    background-color: skyblue;
+    
+
+
+}
+#cert1{
+    margin: 20px;
+    margin-left: -130px;
+
+    grid-gap: 10px;
+
+
+}
+#cert3{
+    margin-left: -155px;
+
+}
+#cert8{
+    /* margin-left: -155px; */
+
+}
+#cert7{
+    margin-left: 64px;
+
+}
+#cert9{
+    margin-left: 69px;
+
+}
+p{
+    font-size: 20px;
+
+}
+#cert8{
+    margin-left: 580px;
+  font-size: 30px;
+
+    width: 400px;
+    padding: 20px;
+
+}
